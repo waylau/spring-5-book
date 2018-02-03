@@ -13,9 +13,18 @@
 
     <!-- 启动AspectJ支持 -->  
     <aop:aspectj-autoproxy />
-  
+
+    <!-- 定义Aspect --> 
+	<aop:config>
+		<aop:pointcut expression="execution(* com.waylau.spring.aop.Tiger.walk())" id="foundTiger"/>  
+	    <aop:aspect id="myAspect" ref="fighter">
+ 			<aop:before method="foundBefore" pointcut-ref="foundTiger"/>  
+ 			<aop:after-returning method="foundAfter" pointcut-ref="foundTiger"/>  
+	    </aop:aspect>
+	</aop:config>
+
 	<!-- 定义 bean -->
-    <bean id="fighter" class="com.waylau.spring.aop.Fighter" />  
+	<bean id="fighter" class="com.waylau.spring.aop.Fighter" />  
     <bean id="tiger" class="com.waylau.spring.aop.Tiger" />  
     
 </beans>

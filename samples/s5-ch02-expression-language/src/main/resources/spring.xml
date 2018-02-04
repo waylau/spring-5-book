@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p" 
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context 
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/util
+        http://www.springframework.org/schema/util/spring-util.xsd">
+
+	<bean id="tax" class="com.waylau.spring.el.Tax" p:ctax="10"></bean>
+
+	<!-- 访问bean的属性 -->
+	<bean id="list" class="com.waylau.spring.el.ShopList" p:name="shanpoo"
+		p:count="2" p:price="#{tax.ctax/100 * 36.5}" />
+
+	<!-- 调用bean的方法 -->
+	<bean id="list2" class="com.waylau.spring.el.ShopList" p:name="shanpoo"
+		p:count="2" p:price="#{tax.getCtax()/100 * 36.5}" />
+
+	<!-- 访问静态变量 -->
+	<bean id="list3" class="com.waylau.spring.el.ShopList" 
+		p:name="#{T(com.waylau.spring.el.Tax).country}"
+		p:count="2" p:price="1" />
+
+	<!-- 访问静态方法 -->
+	<bean id="list4" class="com.waylau.spring.el.ShopList"
+		p:name="#{T(com.waylau.spring.el.Tax).getCountry()}" p:count="2"
+		p:price="1" />
+
+	<!-- 三元表达式的简化 -->
+	<bean id="list5" class="com.waylau.spring.el.ShopList" 
+		p:name="#{tax.getName()?: 'defaultTax'}"
+		p:count="2" p:price="1" />
+
+	<util:list id="its">
+		<bean class="com.waylau.spring.el.Item" p:good="poke" p:weight="3.34"></bean>
+		<bean class="com.waylau.spring.el.Item" p:good="chicken"
+			p:weight="5.66"></bean>
+		<bean class="com.waylau.spring.el.Item" p:good="dark" p:weight="3.64"></bean>
+		<bean class="com.waylau.spring.el.Item" p:good="egg" p:weight="2.54"></bean>
+	</util:list>
+
+	<!-- 展示util:list用法 -->
+	<bean id="list6" class="com.waylau.spring.el.ShopList" 
+		p:name="#{tax.getName()?: 'defaultTax'}"
+		p:count="2" p:price="1" p:items-ref="its" />
+
+	<!-- 集合筛选 -->
+	<bean id="list7" class="com.waylau.spring.el.ShopList" 
+		p:name="#{tax.getName()?: 'defaultTax'}"
+		p:count="2" p:price="1" p:onlyOne="#{its[0]}" /><!-- 这里不是用ref装配 -->
+
+	<bean id="it1" class="com.waylau.spring.el.Item" p:good="poke"
+		p:weight="3.34"></bean>
+	<bean id="it2" class="com.waylau.spring.el.Item" p:good="chicken"
+		p:weight="5.66"></bean>
+	<util:map id="itmap">
+		<entry key="poke" value-ref="it1">
+		</entry>
+		<entry key="chicken" value-ref="it2">
+		</entry>
+	</util:map>
+
+	<!-- map集合筛选 -->
+	<bean id="list8" class="com.waylau.spring.el.ShopList" 
+		p:name="#{tax.getName()?: 'defaultTax'}"
+		p:count="2" p:price="1" p:onlyOne="#{itmap['chicken']}" />
+
+	<!-- 读取.properties文件中的属性 -->
+	<util:properties id="itprop" location="classpath:spel.properites" />
+	<bean id="list9" class="com.waylau.spring.el.ShopList" 
+		p:name="#{itprop['username']}"
+		p:price="1" />
+
+	<bean id="list10" class="com.waylau.spring.el.ShopList" 
+		p:items="#{its.?[weight lt 3.5]}" />
+	<bean id="list11" class="com.waylau.spring.el.ShopList" 
+		p:allGood="#{its.![good]}" />
+	<bean id="list12" class="com.waylau.spring.el.ShopList" 
+		p:allGood="#{its.?[weight gt 3.5].![good]}" />
+
+</beans>

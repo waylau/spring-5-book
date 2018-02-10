@@ -11,6 +11,8 @@ Spring 5 book. Content covers Spring 5, Spring MVC, Spring WebFlux, Spring Boot 
 
 书中所有示例源码，移步至<https://github.com/waylau/spring-5-book/>  `samples` 目录下
  
+* s5-ch05-mvc-test：服务端测试的例子
+* s5-ch05-client-side-rest-test：客户端 REST 测试的例子
 
 ## Contact 联系作者:
 

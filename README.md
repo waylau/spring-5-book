@@ -7,6 +7,14 @@
 
 Spring 5 book. Content covers Spring 5, Spring MVC, Spring WebFlux, Spring Boot and Spring Cloud.
 
+* Spring 5.0.3.RELEASE
+* Servlet 4.0.0
+* JUnit 4.12
+* Lo4j 2.6.2
+* DBCP 2.2.0
+* H2 1.4.196
+
+
 ## Code 源码
 
 书中所有示例源码，移步至<https://github.com/waylau/spring-5-book/>  `samples` 目录下
@@ -20,6 +28,7 @@ Spring 5 book. Content covers Spring 5, Spring MVC, Spring WebFlux, Spring Boot 
 * s5-ch02-expression-language：使用 SpEL 的例子
 * s5-ch05-mvc-test：服务端测试的例子
 * s5-ch05-client-side-rest-test：客户端 REST 测试的例子
+* s5-ch06-declarative-transaction：声明式事务管理的例子
 * ... 未完待续
 
 ## Contact 联系作者:

@@ -5,14 +5,17 @@
 
 ## 内容简介
 
-Spring 5 book. Content covers Spring 5, Spring MVC, Spring WebFlux, Spring Boot and Spring Cloud.
+Spring 5 book. Content covers Spring Framework 5, Spring MVC, Spring WebFlux, Spring Boot and Spring Cloud.
 
-* Spring 5.0.3.RELEASE
+* Apache Maven 3.5.2
+* Gradle 4.5
+* Spring 5.0.4.RELEASE
 * Servlet 4.0.0
 * JUnit 4.12
 * Lo4j 2.6.2
 * DBCP 2.2.0
 * H2 1.4.196
+
 
 
 ## Code 源码

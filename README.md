@@ -33,6 +33,7 @@ Spring 5 book. Content covers Spring Framework 5, Spring MVC, Spring WebFlux, Sp
 * s5-ch05-client-side-rest-test：客户端 REST 测试的例子
 * s5-ch06-declarative-transaction：声明式事务管理的例子
 * s5-ch08-jdbc-template：使用 JdbcTemplate 的例子
+* s5-ch08-jdbc-object-mapping：JDBC 转为对象模型的例子
 * ... 未完待续
 
 ## Contact 联系作者:

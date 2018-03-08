@@ -1,4 +1,4 @@
-# spring-5-book
+# 《Spring 5 案例大全》
 
 ![](images/icon-spring-framework.svg)
 
@@ -6,6 +6,10 @@
 ## 内容简介
 
 Spring 5 book. Content covers Spring Framework 5, Spring MVC, Spring WebFlux, Spring Boot and Spring Cloud.
+
+案例涉及 Spring 5 最新的技术。
+
+技术版本如下：
 
 * Apache Maven 3.5.2
 * Gradle 4.5
@@ -20,8 +24,9 @@ Spring 5 book. Content covers Spring Framework 5, Spring MVC, Spring WebFlux, Sp
 
 ## Code 源码
 
-书中所有示例源码，移步至<https://github.com/waylau/spring-5-book/>  `samples` 目录下
+所有示例源码，移步至<https://github.com/waylau/spring-5-book/>  `samples` 目录下
  
+内容如下：
 
 * s5-ch01-hello-world：快速开启第一个 Spring 应用
 * s5-ch02-dependency-injection：依赖注入的例子
@@ -36,7 +41,7 @@ Spring 5 book. Content covers Spring Framework 5, Spring MVC, Spring WebFlux, Sp
 * s5-ch08-jdbc-object-mapping：JDBC 转为对象模型的例子
 * s5-ch08-embedded-database：使用内存数据库进行测试的例子
 * s5-ch10-jaxb-oxm：使用 JAXB 解析 XML 的例子
-* ... 未完待续
+* ... 强势更新中
 
 ## Contact 联系作者:
 

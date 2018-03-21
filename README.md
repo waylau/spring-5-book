@@ -19,6 +19,8 @@ Spring 5 book. Content covers Spring Framework 5, Spring MVC, Spring WebFlux, Sp
 * Lo4j 2.6.2
 * DBCP 2.2.0
 * H2 1.4.196
+* Eclipse Jetty 9.4.9.v20180320
+* Jackson JSON 2.9.4
 
 
 
@@ -41,6 +43,7 @@ Spring 5 book. Content covers Spring Framework 5, Spring MVC, Spring WebFlux, Sp
 * s5-ch08-jdbc-object-mapping：JDBC 转为对象模型的例子
 * s5-ch08-embedded-database：使用内存数据库进行测试的例子
 * s5-ch10-jaxb-oxm：使用 JAXB 解析 XML 的例子
+* s5-ch11-mvc-rest：基于 Spring Web MVC 的 REST 接口
 * ... 强势更新中
 
 ## Contact 联系作者:

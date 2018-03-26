@@ -21,7 +21,7 @@ Spring 5 book. Content covers Spring Framework 5, Spring MVC, Spring WebFlux, Sp
 * H2 1.4.196
 * Eclipse Jetty 9.4.9.v20180320
 * Jackson JSON 2.9.4
-
+* Apache HttpClient 4.5.5
 
 
 ## Code 源码
@@ -44,6 +44,7 @@ Spring 5 book. Content covers Spring Framework 5, Spring MVC, Spring WebFlux, Sp
 * s5-ch08-embedded-database：使用内存数据库进行测试的例子
 * s5-ch10-jaxb-oxm：使用 JAXB 解析 XML 的例子
 * s5-ch11-mvc-rest：基于 Spring Web MVC 的 REST 接口
+* s5-ch12-rest-template：基于 RestTemplate 的天气预报服务
 * ... 强势更新中
 
 ## Contact 联系作者:

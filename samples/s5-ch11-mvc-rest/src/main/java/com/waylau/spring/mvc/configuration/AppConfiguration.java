@@ -5,9 +5,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 
 /**
- * @author Mykhailo Yashchuk
- */
-/**
  * App Configuration.
  * 
  * @since 1.0.0 2018年3月21日

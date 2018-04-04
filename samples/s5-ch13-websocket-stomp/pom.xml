@@ -1,0 +1,59 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.waylau.spring5</groupId>
+	<artifactId>s5-ch13-websocket-stomp</artifactId>
+	<version>1.0.0</version>
+	<name>websocket-stomp</name>
+	<packaging>jar</packaging>
+	<organization>
+		<name>waylau.com</name>
+		<url>https://waylau.com</url>
+	</organization>
+
+	<properties>      
+		<spring.version>5.0.5.RELEASE</spring.version>
+		<jetty.version>9.4.9.v20180320</jetty.version>
+		<jackson.version>2.9.4</jackson.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+		  <groupId>org.springframework</groupId>
+		  <artifactId>spring-websocket</artifactId>
+		  <version>${spring.version}</version>
+		</dependency>
+	    <dependency>
+		  <groupId>org.springframework</groupId>
+		  <artifactId>spring-messaging</artifactId>
+		  <version>${spring.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-servlet</artifactId>
+			<version>${jetty.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+	    <groupId>org.eclipse.jetty.websocket</groupId>
+		    <artifactId>websocket-server</artifactId>
+			<version>${jetty.version}</version>
+		    <scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-core</artifactId>
+			<version>${jackson.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>${jackson.version}</version>
+		</dependency>
+	</dependencies>
+
+</project>

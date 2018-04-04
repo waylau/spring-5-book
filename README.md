@@ -22,7 +22,8 @@
 * Eclipse Jetty 9.4.9.v20180320
 * Jackson JSON 2.9.4
 * Apache HttpClient 4.5.5
-
+* SockJS-client 1.1.4
+* STOMP Over WebSocket 2.3.3
 
 ## Code 源码
 
@@ -45,6 +46,7 @@
 * s5-ch10-jaxb-oxm：使用 JAXB 解析 XML 的例子
 * s5-ch11-mvc-rest：基于 Spring Web MVC 的 REST 接口
 * s5-ch12-rest-template：基于 RestTemplate 的天气预报服务
+* s5-ch13-websocket-stomp：基于 STOMP 的聊天室
 * ... 强势更新中
 
 ## Contact 联系作者:

@@ -21,7 +21,7 @@ repositories {
 dependencies {
 
 	// 该依赖用于编译阶段
-	compile('org.springframework:spring-webmvc:5.0.4.RELEASE')
+	compile('org.springframework:spring-webmvc:5.0.5.RELEASE')
 	
 	// 添加  Jackson JSON 依赖
 	compile group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.9.4'

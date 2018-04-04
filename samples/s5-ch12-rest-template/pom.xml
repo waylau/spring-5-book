@@ -12,7 +12,7 @@
 	</organization>
 
 	<properties>      
-		<spring.version>5.0.4.RELEASE</spring.version>
+		<spring.version>5.0.5.RELEASE</spring.version>
 		<jetty.version>9.4.9.v20180320</jetty.version>
 		<jackson.version>2.9.4</jackson.version>
 		<httpclient.version>4.5.5</httpclient.version>

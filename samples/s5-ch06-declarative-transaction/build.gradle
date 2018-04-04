@@ -21,9 +21,9 @@ repositories {
 dependencies {
 
 	// 该依赖用于编译阶段
-	compile('org.springframework:spring-context:5.0.4.RELEASE')
-	compile('org.springframework:spring-aspects:5.0.4.RELEASE')
-	compile('org.springframework:spring-jdbc:5.0.4.RELEASE')
+	compile('org.springframework:spring-context:5.0.5.RELEASE')
+	compile('org.springframework:spring-aspects:5.0.5.RELEASE')
+	compile('org.springframework:spring-jdbc:5.0.5.RELEASE')
 	compile('org.apache.logging.log4j:log4j-core:2.6.2')
 	compile('org.apache.logging.log4j:log4j-jcl:2.6.2')
 	compile('org.apache.logging.log4j:log4j-slf4j-impl:2.6.2')

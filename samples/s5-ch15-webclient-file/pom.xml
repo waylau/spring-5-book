@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.waylau.spring5</groupId>
+	<artifactId>s5-ch15-webclient-file</artifactId>
+	<version>1.0.0</version>
+	<name>webclient-file</name>
+	<packaging>jar</packaging>
+	<organization>
+		<name>waylau.com</name>
+		<url>https://waylau.com</url>
+	</organization>
+
+	<properties>      
+		<spring.version>5.0.5.RELEASE</spring.version>
+		<reactor.netty.version>0.7.6.RELEASE</reactor.netty.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webflux</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+		    <groupId>io.projectreactor.ipc</groupId>
+		    <artifactId>reactor-netty</artifactId>
+			<version>${reactor.netty.version}</version>
+			<scope>provided</scope>
+		</dependency>
+				
+	</dependencies>
+
+</project>

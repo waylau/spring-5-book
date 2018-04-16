@@ -25,6 +25,8 @@
 * SockJS-client 1.1.4
 * STOMP Over WebSocket 2.3.3
 * Reactive Streams Netty Driver 0.7.6.RELEASE
+* JMS API 2.0.1
+* ActiveMQ 5.15.3
 
 ## Code 源码
 
@@ -49,6 +51,7 @@
 * s5-ch12-rest-template：基于 RestTemplate 的天气预报服务
 * s5-ch13-websocket-stomp：基于 STOMP 的聊天室
 * s5-ch15-webclient-file：基于 WebClient 的文件上传、下载
+* s5-ch19-rms-msg：基于 JMS 的消息发送、接收
 * ... 强势更新中
 
 ## Contact 联系作者:

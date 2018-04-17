@@ -27,6 +27,8 @@
 * Reactive Streams Netty Driver 0.7.6.RELEASE
 * JMS API 2.0.1
 * ActiveMQ 5.15.3
+* JavaMail 1.6.1
+
 
 ## Code 源码
 
@@ -52,6 +54,7 @@
 * s5-ch13-websocket-stomp：基于 STOMP 的聊天室
 * s5-ch15-webclient-file：基于 WebClient 的文件上传、下载
 * s5-ch19-rms-msg：基于 JMS 的消息发送、接收
+* s5-ch22-java-mail：实现 Email 服务器
 * ... 强势更新中
 
 ## Contact 联系作者:

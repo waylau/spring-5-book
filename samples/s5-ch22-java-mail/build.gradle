@@ -21,13 +21,10 @@ repositories {
 dependencies {
 
 	// 该依赖用于编译阶段
-	compile('org.springframework:spring-core:5.0.5.RELEASE')
-	compile('org.springframework:spring-aop:5.0.5.RELEASE')
-	compile('org.springframework:spring-jms:5.0.5.RELEASE')
+	compile('org.springframework:context-support:5.0.5.RELEASE')
 	compile('org.springframework:spring-test:5.0.5.RELEASE')
 	
-	compile group: 'org.apache.activemq', name: 'activemq-all', version: '5.15.3'
-	//compile group: 'javax.jms', name: 'javax.jms-api', version: '2.0.1'
+	compile group: 'com.sun.mail', name: 'javax.mail', version: '1.6.1'
 	
 	testCompile  group: 'junit', name: 'junit', version: '4.12'
 

@@ -28,7 +28,8 @@
 * JMS API 2.0.1
 * ActiveMQ 5.15.3
 * JavaMail 1.6.1
-
+* Logback Classic Module 1.2.3
+* Quartz Scheduler 2.3.0
 
 ## Code 源码
 
@@ -55,6 +56,7 @@
 * s5-ch15-webclient-file：基于 WebClient 的文件上传、下载
 * s5-ch19-rms-msg：基于 JMS 的消息发送、接收
 * s5-ch22-java-mail：实现 Email 服务器
+* s5-ch23-quartz-scheduler：基于 Quartz Schedule 天气预报系统
 * ... 强势更新中
 
 ## Contact 联系作者:

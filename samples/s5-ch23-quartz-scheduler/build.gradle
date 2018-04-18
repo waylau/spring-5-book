@@ -1,0 +1,41 @@
+// 使用插件
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+// 指定了生成的编译文件的版本，默认是打成了 jar 包
+group = 'com.waylau.spring5'
+version = '1.0.0'
+
+// 指定编译 .java 文件的 JDK 版本
+sourceCompatibility = 1.8
+
+// 使用了Maven的中央仓库及Spring自己的仓库（也可以指定其他仓库）
+repositories {
+	//mavenCentral()
+	maven { url "https://repo.spring.io/snapshot" }
+	maven { url "https://repo.spring.io/milestone" }
+	maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
+}
+
+// 依赖关系
+dependencies {
+
+	// 该依赖用于编译阶段
+	compile('org.springframework:spring-webmvc:5.0.5.RELEASE')
+	compile('org.springframework:context-support:5.0.5.RELEASE')
+	compile('org.springframework:spring-tx:5.0.5.RELEASE')
+	
+	// 添加  Jackson JSON 依赖
+	compile group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.9.4'
+	compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.4'
+	
+	// Apache HttpClient 4.5.5
+	compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.5'
+
+	// 添加  Jetty 依赖
+	provided group: 'org.eclipse.jetty', name: 'jetty-servlet', version: '9.4.9.v20180320'
+
+	compile group: 'org.quartz-scheduler', name: 'quartz', version: '9.4.9.v20180320'
+	compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
+
+}

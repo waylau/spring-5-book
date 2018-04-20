@@ -57,6 +57,7 @@
 * s5-ch19-rms-msg：基于 JMS 的消息发送、接收
 * s5-ch22-java-mail：实现 Email 服务器
 * s5-ch23-quartz-scheduler：基于 Quartz Schedule 天气预报系统
+* s5-ch24-java-cache：基于缓存的天气预报系统
 * ... 强势更新中
 
 ## Contact 联系作者:

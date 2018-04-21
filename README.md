@@ -60,7 +60,8 @@
 * s5-ch22-java-mail：实现 Email 服务器
 * s5-ch23-quartz-scheduler：基于 Quartz Schedule 天气预报系统
 * s5-ch24-java-cache：基于缓存的天气预报系统
-* s5-26-eureka-server、s5-26-eureka-client：实现微服务的注册与发现
+* s5-ch25-initializr-start：开启第一个 Spring Boot 项目
+* s5-ch26-eureka-server、s5-ch26-eureka-client：实现微服务的注册与发现
 * ... 强势更新中
 
 ## Contact 联系作者:

@@ -2,9 +2,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.waylau.spring5</groupId>
-	<artifactId>s5-ch19-rms-msg</artifactId>
+	<artifactId>s5-ch19-jms-msg</artifactId>
 	<version>1.0.0</version>
-	<name>rms-msg</name>
+	<name>jms-msg</name>
 	<packaging>jar</packaging>
 	<organization>
 		<name>waylau.com</name>

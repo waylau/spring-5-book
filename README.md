@@ -56,7 +56,7 @@
 * s5-ch12-rest-template：基于 RestTemplate 的天气预报服务
 * s5-ch13-websocket-stomp：基于 STOMP 的聊天室
 * s5-ch15-webclient-file：基于 WebClient 的文件上传、下载
-* s5-ch19-rms-msg：基于 JMS 的消息发送、接收
+* s5-ch19-jms-msg：基于 JMS 的消息发送、接收
 * s5-ch22-java-mail：实现 Email 服务器
 * s5-ch23-quartz-scheduler：基于 Quartz Schedule 天气预报系统
 * s5-ch24-java-cache：基于缓存的天气预报系统

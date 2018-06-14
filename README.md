@@ -30,7 +30,7 @@
 * JavaMail 1.6.1
 * Logback Classic Module 1.2.3
 * Quartz Scheduler 2.3.0
-* Spring Boot 2.0.0.RELEASE
+* Spring Boot 2.0.1.RELEASE
 * Spring Cloud Finchley.M9
 
 ## Code 源码

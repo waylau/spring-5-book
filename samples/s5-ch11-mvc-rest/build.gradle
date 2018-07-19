@@ -21,14 +21,14 @@ repositories {
 dependencies {
 
 	// 该依赖用于编译阶段
-	compile('org.springframework:spring-webmvc:5.0.5.RELEASE')
+	compile('org.springframework:spring-webmvc:5.0.7.RELEASE')
 	
 	// 添加  Jackson JSON 依赖
-	compile group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.9.4'
-	compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.4'
+	compile group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.9.5'
+	compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.5'
 	
 	// 添加  Jetty 依赖
-	provided group: 'org.eclipse.jetty', name: 'jetty-servlet', version: '9.4.9.v20180320'
+	provided group: 'org.eclipse.jetty', name: 'jetty-servlet', version: '9.4.10.v20180503'
 
 	
 

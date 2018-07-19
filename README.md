@@ -13,14 +13,14 @@
 
 * Apache Maven 3.5.2
 * Gradle 4.5
-* Spring 5.0.5.RELEASE
+* Spring 5.0.7.RELEASE
 * Servlet 4.0.0
 * JUnit 4.12
 * Lo4j 2.6.2
 * DBCP 2.2.0
 * H2 1.4.196
-* Eclipse Jetty 9.4.9.v20180320
-* Jackson JSON 2.9.4
+* Eclipse Jetty 9.4.10.v20180503
+* Jackson JSON 2.9.5
 * Apache HttpClient 4.5.5
 * SockJS-client 1.1.4
 * STOMP Over WebSocket 2.3.3

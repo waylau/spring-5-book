@@ -12,7 +12,7 @@
 	</organization>
 
 	<properties>      
-		<spring.version>5.0.7.RELEASE</spring.version>
+		<spring.version>5.0.8.RELEASE</spring.version>
 		<reactor.netty.version>0.7.6.RELEASE</reactor.netty.version>
 	</properties>
 	<dependencies>

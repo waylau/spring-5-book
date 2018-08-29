@@ -12,9 +12,9 @@
 	</organization>
 
 	<properties>      
-		<spring.version>5.0.5.RELEASE</spring.version>
-		<jetty.version>9.4.9.v20180320</jetty.version>
-		<jackson.version>2.9.4</jackson.version>
+		<spring.version>5.0.8.RELEASE</spring.version>
+		<jetty.version>9.4.11.v20180605</jetty.version>
+		<jackson.version>2.9.6</jackson.version>
 	</properties>
 	<dependencies>
 		<dependency>

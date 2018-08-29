@@ -21,10 +21,10 @@ repositories {
 dependencies {
 
 	// 该依赖用于编译阶段
-	compile('org.springframework:spring-context:5.0.7.RELEASE')
-	compile('org.springframework:spring-webmvc:5.0.7.RELEASE')
+	compile('org.springframework:spring-context:5.0.8.RELEASE')
+	compile('org.springframework:spring-webmvc:5.0.8.RELEASE')
 	provided('javax.servlet:javax.servlet-api:4.0.0')
 	// 该依赖用于测试阶段
-	testCompile('org.springframework:spring-test:5.0.7.RELEASE')
+	testCompile('org.springframework:spring-test:5.0.8.RELEASE')
 	testCompile('junit:junit:4.12')
 }

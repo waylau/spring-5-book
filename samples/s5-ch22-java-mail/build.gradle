@@ -21,8 +21,8 @@ repositories {
 dependencies {
 
 	// 该依赖用于编译阶段
-	compile('org.springframework:context-support:5.0.8.RELEASE')
-	compile('org.springframework:spring-test:5.0.8.RELEASE')
+	compile('org.springframework:context-support:5.1.1.RELEASE')
+	compile('org.springframework:spring-test:5.1.1.RELEASE')
 	
 	compile group: 'com.sun.mail', name: 'javax.mail', version: '1.6.1'
 	

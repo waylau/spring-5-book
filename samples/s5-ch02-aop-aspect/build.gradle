@@ -21,6 +21,6 @@ repositories {
 dependencies {
 
 	// 该依赖用于编译阶段
-	compile('org.springframework:spring-context:5.0.8.RELEASE')
-	compile('org.springframework:spring-aspects:5.0.8.RELEASE')
+	compile('org.springframework:spring-context:5.1.1.RELEASE')
+	compile('org.springframework:spring-aspects:5.1.1.RELEASE')
 }

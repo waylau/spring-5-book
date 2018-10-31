@@ -13,7 +13,7 @@
 
 * Apache Maven 3.5.2
 * Gradle 4.5
-* Spring 5.0.8.RELEASE
+* Spring 5.1.1.RELEASE
 * Servlet 4.0.0
 * JUnit 4.12
 * Lo4j 2.6.2

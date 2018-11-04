@@ -1,7 +1,5 @@
 # Spring 5 Samples（Spring 5 案例大全）/《Spring 5 开发大全》示例源码
 
-![](images/icon-spring-framework.svg)
-
 
 ## 内容简介
 
@@ -92,7 +90,11 @@ Cloud 微服务架构开发实战》等（见<https://waylau.com/books/>） ，�
 ## 配套书籍《Spring 5 开发大全》
 
 
-与该源码配套的书籍《Spring 5 开发大全》已经出版，内容详见全书[目录](SUMMARY.md)。。
+与该源码配套的书籍《Spring 5 开发大全》已经出版，内容详见全书[目录](SUMMARY.md)。
+
+
+![](images/spring-5-book-logo.jpg)
+
 
 本书如有勘误，会在<https://github.com/waylau/spring-5-book/issues>上进行发布。由于笔者能力有限，时间仓促，难免错漏，欢迎读者批评指正。
 

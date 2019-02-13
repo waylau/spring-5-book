@@ -1,0 +1,26 @@
+// 使用插件
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+// 指定了生成的编译文件的版本，默认是打成了 jar 包
+group = 'com.waylau.spring5'
+version = '1.0.0'
+
+// 指定编译 .java 文件的 JDK 版本
+sourceCompatibility = 1.8
+
+// 使用了Maven的中央仓库及Spring自己的仓库（也可以指定其他仓库）
+repositories {
+	//mavenCentral()
+	maven { url "https://repo.spring.io/snapshot" }
+	maven { url "https://repo.spring.io/milestone" }
+	maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
+}
+
+// 依赖关系
+dependencies {
+
+	// 该依赖用于编译阶段
+	compile('org.springframework:spring-context:5.1.1.RELEASE')
+
+}

@@ -113,7 +113,10 @@ Cloud 微服务架构开发实战》等（见<https://waylau.com/books/>） ，�
 * [亚马逊](https://www.amazon.cn/s/ref=nb_sb_noss?__mk_zh_CN=%E4%BA%9A%E9%A9%AC%E9%80%8A%E7%BD%91%E7%AB%99&url=search-alias%3Daps&field-keywords=%E6%9F%B3%E4%BC%9F%E5%8D%AB+Spring+5+%E5%BC%80%E5%8F%91%E5%A4%A7%E5%85%A8&rh=i%3Aaps%2Ck%3A%E6%9F%B3%E4%BC%9F%E5%8D%AB+Spring+5+%E5%BC%80%E5%8F%91%E5%A4%A7%E5%85%A8)
 
 
-也可以直接关注我博客（<https://waylau.com>）或者我的开源书（<https://waylau.com/books>）。
+想低于市价得到本书？来[二手书集市](https://github.com/waylau/second-hand-books)试试看。
+
+
+也可以直接关注我博客（<https://waylau.com/>）或者我的开源书（<https://waylau.com/books/>）了解更多免费咨询。
 
 
 
